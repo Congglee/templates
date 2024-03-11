@@ -1,0 +1,98 @@
+.footer {
+  padding-bottom: 96px;
+
+  &-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 0 32px;
+  }
+
+  &-logo {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+
+  &-desc {
+    margin-bottom: 80px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+  &-copyright {
+    color: $gray-color;
+    font-size: 14px;
+    &:hover {
+      color: $coffee-color;
+    }
+  }
+
+  &-heading {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    color: #4b5563;
+    margin-bottom: 16px;
+  }
+
+  &-links {
+    list-style: none;
+    padding: 0;
+  }
+
+  &-item {
+    margin-bottom: 10px;
+  }
+
+  &-link {
+    text-decoration: none;
+    color: $gray-color;
+    font-size: 14px;
+
+    &:hover {
+      color: $coffee-color-bold;
+    }
+  }
+
+  &-text {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: $gray-color;
+  }
+
+  &-mail {
+    display: inline-block;
+    font-size: 22px;
+    margin-bottom: 64px;
+  }
+
+  &-auth {
+    color: $gray-color;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    &-container {
+      grid-template-columns: 100%;
+      gap: 20px 0;
+    }
+
+    &-logo {
+      margin-bottom: 8px;
+    }
+
+    &-desc {
+      margin-bottom: 8px;
+    }
+
+    .contact {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

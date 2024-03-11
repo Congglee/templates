@@ -1,0 +1,133 @@
+.form {
+  padding-bottom: 96px;
+
+  &-container {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    border: 1px solid #d2d2d580;
+    padding: 60px;
+  }
+
+  &-main {
+    width: 65%;
+    margin-right: 60px;
+    padding-right: 60px;
+    border-right: 1px solid #d2d2d54d;
+  }
+
+  &-heading {
+    margin-bottom: 10px;
+    opacity: 0.6;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  &-text {
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  &-label {
+    display: block;
+    margin-bottom: 12px;
+    color: #1d1f2e99;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  &-input {
+    display: block;
+    width: 100%;
+    height: 54px;
+    margin-bottom: 20px;
+    padding: 18px 24px;
+    border: 1px solid #e5e5e7;
+    border-radius: 0px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #333333;
+    transition: all 0.4s linear;
+
+    &:focus {
+      border-color: #1d1f2e;
+      outline: 0;
+    }
+
+    &:hover {
+      border-color: #1d1f2e80;
+    }
+  }
+
+  &-button {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background-color: #1d1f2e;
+  }
+
+  textarea {
+    height: 100px;
+  }
+
+  &-detail {
+    &-info {
+      margin-bottom: 40px;
+    }
+
+    &-label {
+      margin-bottom: 10px;
+      opacity: 0.6;
+      font-size: 12px;
+      line-height: 18px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    &-headline {
+      margin-bottom: 10px;
+      font-size: 18px;
+      line-height: 30px;
+    }
+
+    &-paragraph {
+      color: #1d1f2eb3;
+      margin-bottom: 15px;
+      line-height: 28px;
+    }
+  }
+
+  &-map {
+    margin-bottom: -60px;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    &-container {
+      flex-direction: column;
+    }
+
+    &-main {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      border: none;
+      margin-bottom: 45px;
+    }
+  }
+}

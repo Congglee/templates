@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="./css/products.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header>
+          <img
+            src="./img/menu.png"
+            class="menu-icon"
+            onclick="toggleMenu()"
+            alt=""
+          />
+
+          <a href="./home.html">
+            <img src="./img/Logo.png" alt="" class="logo" />
+          </a>
+
+          <nav>
+            <ul id="menu__list" class="menu__list">
+              <li><a href="./home.html">Home</a></li>
+              <li><a href="./products.html">Products</a></li>
+              <li><a href="./blog.html">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+
+          <div class="sign">
+            <a href="#" class="sign-cart">
+              <img src="./img/Cart.png" alt="" />
+            </a>
+
+            <span class="sign-in">
+              <a href="./sign_in.html">Sign In</a>
+            </span>
+
+            <span class="sign-up"><a href="./sign_up.html">Sign Up</a></span>
+          </div>
+        </header>
+
+        <section class="banner">
+          <img src="./img/food2.png" alt="" />
+        </section>
+
+        <article>
+          <aside>
+            <ul class="type__list">
+              <!-- <li class="type__item"><a href="#">Breakfast</a></li>
+              <li class="type__item"><a href="#">Vegan</a></li>
+              <li class="type__item"><a href="#">Meat</a></li>
+              <li class="type__item"><a href="#">Dessert</a></li>
+              <li class="type__item"><a href="#">Lunch</a></li>
+              <li class="type__item"><a href="#">Chocolate</a></li> -->
+            </ul>
+          </aside>
+
+          <div class="products">
+            <div class="products__list">
+              <!-- <div class="products__item">
+                <img src="./img/disk3.png" alt="" class="products__image" />
+                <div class="products__content">
+                  <h3 class="products__title">
+                    <a href="#"> Fresh and Healthy Mixed Mayonnaise Salad </a>
+                  </h3>
+                  <span class="products__price"> $30 </span>
+                  <button class="products__button">Add To Cart</button>
+                </div>
+              </div>
+              <div class="products__item">
+                <img src="./img/disk4.png" alt="" class="products__image" />
+                <div class="products__content">
+                  <h3 class="products__title">
+                    <a href="#"> The Creamiest Creamy Chicken </a>
+                  </h3>
+                  <span class="products__price"> $30 </span>
+                  <button class="products__button">Add To Cart</button>
+                </div>
+              </div>
+              <div class="products__item">
+                <img src="./img/disk5.png" alt="" class="products__image" />
+                <div class="products__content">
+                  <h3 class="products__title">
+                    <a href="#"> Fruity Pancake with Orange & Blueberry </a>
+                  </h3>
+                  <span class="products__price"> $30 </span>
+                  <button class="products__button">Add To Cart</button>
+                </div>
+              </div>
+              <div class="products__item">
+                <img src="./img/disk3.png" alt="" class="products__image" />
+                <div class="products__content">
+                  <h3 class="products__title">
+                    <a href="#"> Fresh and Healthy Mixed Mayonnaise Salad </a>
+                  </h3>
+                  <span class="products__price"> $30 </span>
+                  <button class="products__button">Add To Cart</button>
+                </div>
+              </div>
+              <div class="products__item">
+                <img src="./img/disk4.png" alt="" class="products__image" />
+                <div class="products__content">
+                  <h3 class="products__title">
+                    <a href="#"> The Creamiest Creamy Chicken </a>
+                  </h3>
+                  <span class="products__price"> $30 </span>
+                  <button class="products__button">Add To Cart</button>
+                </div>
+              </div>
+              <div class="products__item">
+                <img src="./img/disk5.png" alt="" class="products__image" />
+                <div class="products__content">
+                  <h3 class="products__title">
+                    <a href="#"> Fresh and Healthy Mixed Mayonnaise Salad </a>
+                  </h3>
+                  <span class="products__price"> $30 </span>
+                  <button class="products__button">Add To Cart</button>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </article>
+
+        <footer>
+          <a href="./home.html">
+            <img src="./img/Logo.png" alt="" class="footer__logo" />
+          </a>
+
+          <nav class="footer__menu">
+            <ul>
+              <li><a href="./home.html">Home</a></li>
+              <li><a href="./products.html">Products</a></li>
+              <li><a href="./blog.html">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+        </footer>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

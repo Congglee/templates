@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="./css/blog.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header>
+          <img
+            src="./img/menu.png"
+            class="menu-icon"
+            onclick="toggleMenu()"
+            alt=""
+          />
+
+          <a href="./home.html">
+            <img src="./img/Logo.png" alt="" class="logo" />
+          </a>
+
+          <nav>
+            <ul id="menu__list" class="menu__list">
+              <li><a href="./home.html">Home</a></li>
+              <li><a href="./products.html">Products</a></li>
+              <li><a href="./blog.html">About Us</a></li>
+              <li><a href="#contact_us">Contact Us</a></li>
+            </ul>
+          </nav>
+
+          <div class="sign">
+            <a href="#">
+              <img src="./img/Cart.png" alt="" class="sign__image" />
+            </a>
+            <span class="sign-in">
+              <a href="./sign_in.html">Sign In</a>
+            </span>
+            <span class="sign-up"><a href="./sign_up.html">Sign Up</a></span>
+          </div>
+        </header>
+
+        <main class="post">
+          <div class="post__image">
+            <img src="./img/blogbanner.jpg" alt="" />
+            <h1 class="post__text">
+              <a href="./blog.html"> Food Blogs </a>
+            </h1>
+          </div>
+
+          <div class="post__element">
+            <aside class="post-category">
+              <ul class="post-category__list">
+                <!-- <li class="post-category__item">
+                  <a href="#" class="post-category__text">Cooking method</a>
+                </li>
+                <li class="post-category__item">
+                  <a href="#" class="post-category__text">Origins</a>
+                </li>
+                <li class="post-category__item">
+                  <a href="#" class="post-category__text">Tet holiday</a>
+                </li>
+                <li class="post-category__item">
+                  <a href="#" class="post-category__text">Genre</a>
+                </li>
+                <li class="post-category__item">
+                  <a href="#" class="post-category__text">Cooking experience</a>
+                </li>
+                <li class="post-category__item">
+                  <a href="#" class="post-category__text">
+                    Table of contents of cakes</a
+                  >
+                </li> -->
+              </ul>
+            </aside>
+
+            <article class="post__list">
+              <!-- <div class="post__item">
+                <a href="#" class="post__image-link">
+                  <img
+                    src="./img/blog1.jpg"
+                    alt=""
+                    class="post__image--small"
+                  />
+                </a>
+                <div class="post__content">
+                  <h3 class="post__title">
+                    <a href="#">
+                      Japanese "Super shocked" Fried Chicken - Chicken Karaage
+                    </a>
+                  </h3>
+                  <p class="post__desc">
+                    It's cold outside, and the weekend is coming, so we
+                    especially recommend this super crispy fried chicken to you
+                    ;)
+                  </p>
+                </div>
+              </div>
+              <div class="post__item">
+                <a href="#" class="post__image-link">
+                  <img
+                    src="./img/blog1.jpg"
+                    alt=""
+                    class="post__image--small"
+                  />
+                </a>
+                <div class="post__content">
+                  <h3 class="post__title">
+                    <a href="#"> How To Make Fish Spring rolls </a>
+                  </h3>
+                  <p class="post__desc">
+                    “Refreshing Tet dishes – Let Spring be more DELICIOUS!” What
+                    will you do if you receive this offer? :)
+                  </p>
+                </div>
+              </div>
+              <div class="post__item">
+                <a href="#" class="post__image-link">
+                  <img
+                    src="./img/blog1.jpg"
+                    alt=""
+                    class="post__image--small"
+                  />
+                </a>
+                <div class="post__content">
+                  <h3 class="post__title">
+                    <a href="#"> How To Make Bordelaise Sauce </a>
+                  </h3>
+                  <p class="post__desc">
+                    Wine sauce was one of my "closets" when I was studying in
+                    Europe whenever I had guests at home or needed to cook
+                    something to contribute to shared meals with friends and
+                    colleagues.
+                  </p>
+                </div>
+              </div>
+              <div class="post__item">
+                <a href="#" class="post__image-link">
+                  <img
+                    src="./img/blog1.jpg"
+                    alt=""
+                    class="post__image--small"
+                  />
+                </a>
+                <div class="post__content">
+                  <h3 class="post__title">
+                    <a href="#"> Eggnog Chocolate (Hot) Chocolate Eggnog </a>
+                  </h3>
+                  <p class="post__desc">
+                    Tomorrow is Christmas, the whole family definitely do not
+                    miss this wonderful Eggnog. Do not be afraid of the weather
+                    because this is a drink that is extremely delicious whether
+                    hot or cold.
+                  </p>
+                </div>
+              </div>
+              <div class="post__item">
+                <a href="#" class="post__image-link">
+                  <img
+                    src="./img/blog1.jpg"
+                    alt=""
+                    class="post__image--small"
+                  />
+                </a>
+                <div class="post__content">
+                  <h3 class="post__title">
+                    <a href="#"> How To Make SUPER Super Simple Thick Cake </a>
+                  </h3>
+                  <p class="post__desc">
+                    Who would go to make banh day at home, is it fast to go out
+                    and buy it? But this heavy-loving donkey likes to tinker at
+                    home. If I knew how to make banh day this easy, the cake
+                    vendor near my house would have "lost" me a long time ago
+                  </p>
+                </div>
+              </div>
+              <div class="post__item">
+                <a href="#" class="post__image-link">
+                  <img
+                    src="./img/blog1.jpg"
+                    alt=""
+                    class="post__image--small"
+                  />
+                </a>
+                <div class="post__content">
+                  <h3 class="post__title">
+                    <a href="#">
+                      What Does It Have In Our Kitchen ? Apple Cider Vinegar –
+                      Pharmacy From The Kitchen
+                    </a>
+                  </h3>
+                  <p class="post__desc">
+                    Hello everyone, Last year I started the series "What's in my
+                    kitchen?" to introduce some of the utensils that I really
+                    like in the kitchen, which I have experienced in using for a
+                    long time, and know are very good, ...
+                  </p>
+                </div>
+              </div> -->
+            </article>
+          </div>
+        </main>
+
+        <footer>
+          <a href="./home.html">
+            <img src="./img/Logo.png" alt="" class="footer__logo" />
+          </a>
+
+          <nav class="footer__menu">
+            <ul>
+              <li><a href="./home.html">Home</a></li>
+              <li><a href="./products.html">Products</a></li>
+              <li><a href="./blog.html">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+        </footer>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

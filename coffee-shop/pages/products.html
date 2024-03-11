@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/app.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-container">
+          <div class="header-logo">
+            <a href="../index.html">CoffeeStyle.</a>
+          </div>
+
+          <ul id="header-menu" class="header-menu">
+            <li class="header-menu-item">
+              <a href="../index.html" class="header-menu-link">Home</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="products.html" class="header-menu-link">Products</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#" class="header-menu-link">Blog</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#" class="header-menu-link">About</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="contact.html" class="header-menu-link">Contact</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#" class="header-menu-link">SIGNUP</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#" class="header-menu-link">LOGIN</a>
+            </li>
+          </ul>
+
+          <ul class="header-cart">
+            <li class="header-cart-item">
+              <a href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="cart-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                  ></path>
+                </svg>
+
+                <span class="cart-text">Cart</span>
+
+                <span class="cart-noti">7</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="header-toggle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="header-toggle-icon"
+              id="header-toggle-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="filter">
+          <div class="container">
+            <div class="filter-container">
+              <h1 class="filter-heading">Our Products</h1>
+              <p class="filter-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+
+              <div class="filter-list">
+                <div class="filter-item isCurrent">
+                  <a href="#">All Products</a>
+                </div>
+
+                <div class="filter-item">
+                  <a href="#">Coffee Mugs</a>
+                </div>
+
+                <div class="filter-item">
+                  <a href="#">Others</a>
+                </div>
+
+                <div class="filter-item">
+                  <a href="#">Premium</a>
+                </div>
+
+                <div class="filter-item">
+                  <a href="#">Tea Mugs</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="story">
+          <div class="container">
+            <div class="story-container">
+              <div class="story-video">
+                <img src="../images/lifestyle-story-01.jpeg" />
+              </div>
+
+              <div class="story-content">
+                <h2 class="story-heading">
+                  Health Check: why do I get a headache when I haven’t had my
+                  coffee?
+                </h2>
+                <p class="story-desc">
+                  It is a paradisematic country, in which roasted parts of
+                  sentences fly into your mouth.
+                </p>
+                <a href="#" class="story-link-product button"
+                  >Read the full Story</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="products">
+          <div class="container">
+            <div class="products-container">
+              <div class="products-list">
+                <div class="products-item">
+                  <div class="products-image products-image-01">
+                    <a href="#">
+                      <div class="products-image-container">
+                        <div class="products-sale">On Sale</div>
+                        <div class="products-explore button">Explore Mug</div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="products-detail">
+                    <h3 class="products-heading">
+                      <a href="#"> Red Love Cup </a>
+                    </h3>
+
+                    <div class="products-price">
+                      <span class="products-price-sale">$25.00</span>
+                      <span class="products-price-old">$37.00 USD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products-item">
+                  <div class="products-image products-image-02">
+                    <a href="#">
+                      <div class="products-image-container">
+                        <div class="products-sale">On Sale</div>
+                        <div class="products-explore button">Explore Mug</div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="products-detail">
+                    <h3 class="products-heading">
+                      <a href="#"> Black Tea Cup </a>
+                    </h3>
+
+                    <div class="products-price">
+                      <span class="products-price-sale">$15.00</span>
+                      <span class="products-price-old">$29.00 USD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products-item">
+                  <div class="products-image products-image-03">
+                    <a href="#">
+                      <div class="products-image-container">
+                        <div class="products-explore button">Explore Mug</div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="products-detail">
+                    <h3 class="products-heading">
+                      <a href="#"> B&W Essentials Mug </a>
+                    </h3>
+
+                    <div class="products-price">
+                      <span>$19.00 USD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products-item">
+                  <div class="products-image products-image-04">
+                    <a href="#">
+                      <div class="products-image-container">
+                        <div class="products-explore button">Explore Mug</div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="products-detail">
+                    <h3 class="products-heading">
+                      <a href="#"> Winter Style Mug </a>
+                    </h3>
+
+                    <div class="products-price">
+                      <span>$25.00 USD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products-item">
+                  <div class="products-image products-image-05">
+                    <a href="#">
+                      <div class="products-image-container">
+                        <div class="products-explore button">Explore Mug</div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="products-detail">
+                    <h3 class="products-heading">
+                      <a href="#"> Ceramic Tea </a>
+                    </h3>
+
+                    <div class="products-price">
+                      <span>$46.00 USD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products-item">
+                  <div class="products-image products-image-06">
+                    <a href="#">
+                      <div class="products-image-container">
+                        <div class="products-explore button">Explore Mug</div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="products-detail">
+                    <h3 class="products-heading">
+                      <a href="#"> No Handle Bar Cup </a>
+                    </h3>
+
+                    <div class="products-price">
+                      <span>$34.00 USD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products-item">
+                  <div class="products-image products-image-07">
+                    <a href="#">
+                      <div class="products-image-container">
+                        <div class="products-explore button">Explore Mug</div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="products-detail">
+                    <h3 class="products-heading">
+                      <a href="#"> Espresso Cup by Mugs.co </a>
+                    </h3>
+
+                    <div class="products-price">
+                      <span>$25.00 USD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products-item">
+                  <div class="products-image products-image-08">
+                    <a href="#">
+                      <div class="products-image-container">
+                        <div class="products-explore button">Explore Mug</div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="products-detail">
+                    <h3 class="products-heading">
+                      <a href="#"> Pink Premium Ceramic </a>
+                    </h3>
+
+                    <div class="products-price">
+                      <span>$99.00 USD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products-item">
+                  <div class="products-image products-image-09">
+                    <a href="#">
+                      <div class="products-image-container">
+                        <div class="products-explore button">Explore Mug</div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="products-detail">
+                    <h3 class="products-heading">
+                      <a href="#"> Summer Designer Cup </a>
+                    </h3>
+
+                    <div class="products-price">
+                      <span>$29.00 USD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products-item">
+                  <div class="products-image products-image-10">
+                    <a href="#">
+                      <div class="products-image-container">
+                        <div class="products-explore button">Explore Mug</div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="products-detail">
+                    <h3 class="products-heading">
+                      <a href="#"> Golden Designers Mug </a>
+                    </h3>
+
+                    <div class="products-price">
+                      <span class="products-price-sale">$50.00</span>
+                      <span class="products-price-old">$69.00 USD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products-item">
+                  <div class="products-image products-image-11">
+                    <a href="#">
+                      <div class="products-image-container">
+                        <div class="products-explore button">Explore Mug</div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="products-detail">
+                    <h3 class="products-heading">
+                      <a href="#"> White Mug Essential </a>
+                    </h3>
+
+                    <div class="products-price">
+                      <span>$19.00 USD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products-item">
+                  <div class="products-image products-image-12">
+                    <a href="#">
+                      <div class="products-image-container">
+                        <div class="products-explore button">Explore Mug</div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="products-detail">
+                    <h3 class="products-heading">
+                      <a href="#"> White Ceramic </a>
+                    </h3>
+
+                    <div class="products-price">
+                      <span>$29.00 USD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products-item">
+                  <div class="products-image products-image-13">
+                    <a href="#">
+                      <div class="products-image-container">
+                        <div class="products-explore button">Explore Mug</div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="products-detail">
+                    <h3 class="products-heading">
+                      <a href="#"> Basic White Mug </a>
+                    </h3>
+
+                    <div class="products-price">
+                      <span>$15.00 USD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products-item">
+                  <div class="products-image products-image-15">
+                    <a href="#">
+                      <div class="products-image-container">
+                        <div class="products-explore button">Explore Mug</div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="products-detail">
+                    <h3 class="products-heading">
+                      <a href="#"> Aroma Art Coffee Mug </a>
+                    </h3>
+
+                    <div class="products-price">
+                      <span>$39.00 USD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products-item">
+                  <div class="products-image products-image-16">
+                    <a href="#">
+                      <div class="products-image-container">
+                        <div class="products-explore button">Explore Mug</div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="products-detail">
+                    <h3 class="products-heading">
+                      <a href="#"> Blue Premium Mug </a>
+                    </h3>
+
+                    <div class="products-price">
+                      <span>$99.00 USD</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="subscribe">
+          <div class="container">
+            <div class="subscribe-container">
+              <div class="subscribe-subline">
+                <div class="subscribe-subline-line"></div>
+                <div class="subscribe-subline-label">
+                  SIGN UP AND GET FREE COFFEE BAGS
+                </div>
+                <div class="subscribe-subline-line"></div>
+              </div>
+
+              <h1 class="subscribe-heading">Coffee Updates</h1>
+
+              <div class="subscribe-form">
+                <div class="subscribe-form-input">
+                  <input type="text" placeholder="example@gmail.com" />
+                </div>
+
+                <button class="button">subscribe</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer-column">
+              <div class="footer-logo">CoffeeStyle.</div>
+              <p class="footer-desc">
+                Delivering the best coffee life since 1996. From coffee geeks to
+                the real ones.
+              </p>
+              <span class="footer-copyright">Conggglee Inc. © 1996</span>
+            </div>
+
+            <div class="footer-column">
+              <h3 class="footer-heading">MENU</h3>
+              <ul class="footer-links">
+                <li class="footer-item">
+                  <a href="../index.html" class="footer-link">Home</a>
+                </li>
+                <li class="footer-item">
+                  <a href="products.html" class="footer-link">Our Products</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">About</a>
+                </li>
+                <li class="footer-item">
+                  <a href="contact.html" class="footer-link">Contact</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Styleguide</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h3 class="footer-heading">FOLLOW US</h3>
+              <ul class="footer-links">
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Facebook</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Instagram</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Pinterest</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Twitter</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-column contact">
+              <h3 class="footer-heading">CONTACT US</h3>
+              <span class="footer-text">We're Always Happy to Help</span>
+              <span class="footer-mail">congldqn888@gmail.com</span>
+              <span class="footer-auth">Powered by Conggglee Author</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="../scripts/main.js"></script>
+  </body>
+</html>

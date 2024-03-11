@@ -1,0 +1,56 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-primary;
+  font-size: 16px;
+  line-height: 1;
+  background-color: white;
+  font-weight: 400;
+}
+
+.wrapper {
+  max-width: 1536px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.container {
+  max-width: 915px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.subheadline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 96px;
+
+  &-deco-line {
+    height: 1px;
+    width: 32px;
+    background-color: #e5e7eb;
+  }
+
+  &-label {
+    margin: 0 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    color: $gray-color;
+    letter-spacing: 1.2px;
+  }
+}
+
+.button {
+  cursor: pointer;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.65px;
+}

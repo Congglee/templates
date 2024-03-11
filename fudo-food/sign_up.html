@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./css/sign_up.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header>
+          <a href="./home.html">
+            <img src="./img/Logo.png" alt="" />
+          </a>
+        </header>
+
+        <article>
+          <div class="sign-up__title">
+            <span class="sign-up__title--welcome">Welcome to Fudo</span>
+            <h1 class="sign-up__title--create">Create Account</h1>
+          </div>
+
+          <form action="" class="form-group" onsubmit="return checkSignUp()">
+            <div class="form-item">
+              <label for="" class="form-name">Email</label>
+              <input
+                type="text"
+                class="form-control"
+                id="email"
+                placeholder="John.snow@gmail.com"
+              />
+              <span class="form__text" id="email__error"></span>
+            </div>
+            <div class="form-item">
+              <label for="" class="form-name">Fullname</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullname"
+                placeholder="John.snow"
+              />
+              <span class="form__text" id="fullname__error"></span>
+            </div>
+            <div class="form-item">
+              <label for="" class="form-name">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                placeholder="*********"
+              />
+              <span class="form__text" id="password__error"></span>
+            </div>
+            <div class="form-item">
+              <label for="" class="form-name">Re-Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="repass"
+                placeholder="*********"
+              />
+              <span class="form__text" id="repass__error"></span>
+            </div>
+            <div class="form-button">
+              <button>Create Now</button>
+            </div>
+          </form>
+        </article>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

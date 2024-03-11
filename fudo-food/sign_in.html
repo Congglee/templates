@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="google-signin-client_id"
+      content="YOUR_CLIENT_ID.apps.googleusercontent.com"
+    />
+    <title>Sign-in</title>
+    <link rel="stylesheet" href="./css/sign_in.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header>
+          <a href="./home.html">
+            <img src="./img/Logo.png" alt="" />
+          </a>
+        </header>
+
+        <article>
+          <div class="login">
+            <span class="login__welcome">Welcome back</span>
+            <h1 class="login__title">Login to your account</h1>
+          </div>
+
+          <form action="" class="form-group" onsubmit="return checkSignIn()">
+            <div class="form-item">
+              <label for="email" class="form-name">Email</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="John.snow@gmail.com"
+                id="email"
+              />
+              <span class="form__text" id="email__error"></span>
+            </div>
+            <div class="form-item">
+              <label for="password" class="form-name">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="*********"
+                id="password"
+              />
+              <span class="form__text" id="password__error"></span>
+            </div>
+
+            <div class="form-button__login">
+              <button class="button-login">Login now</button>
+              <button disabled class="button-google">
+                <img src="./img/google_icon.png" alt="" />
+                <span>Or sign-in with google</span>
+              </button>
+            </div>
+          </form>
+
+          <div class="form-support">
+            <a href="#" class="form__forgot-password">Forgot password?</a>
+            <a href="#" class="form__account"
+              >Dont have an account?
+              <span class="form__account--blue">Join free today</span></a
+            >
+          </div>
+        </article>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
